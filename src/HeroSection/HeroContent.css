@@ -1,0 +1,15 @@
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Moves the image up */
+  }
+  100% {
+    transform: translateY(0); /* Returns to original position */
+  }
+}
+
+.floating-image {
+  animation: float 3s ease-in-out infinite; /* Smooth floating animation */
+}
